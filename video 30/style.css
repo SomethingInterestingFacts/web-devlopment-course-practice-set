@@ -1,0 +1,76 @@
+:root {
+    --color: pink;
+    --seccolor: rgb(148, 45, 62);
+    --defdap: 10px 17px 10px 33px;
+    --deopa: 0.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: var(--color);
+
+}
+
+ul {
+    display: flex;
+
+}
+
+/*ul  a{
+list-style: none;
+padding: var(--defdap);
+border: 1px solid var(--seccolor);
+text-decoration: none;
+font-weight: 800;
+font-family: sans-serif;
+opacity: var(--deopa);  
+}*/
+
+ul li {
+    list-style: none;
+    padding: var(--defdap);
+    border: 1px solid var(--seccolor);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: sans-serif;
+    opacity: var(--deopa);
+}
+
+ul li:hover {
+    background-color: var(--seccolor);
+    cursor: pointer;
+}
+
+ul li:active {
+    background-color: green
+}
+
+.container {
+    background-color: var(--seccolor);
+    border: 2px solid plum;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    background-color: rgb(160, 215, 243);
+    color: rgb(0, 145, 255);
+    border: none;
+    padding: 4px 15px;
+    margin-top: 7px;
+    border-radius: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}

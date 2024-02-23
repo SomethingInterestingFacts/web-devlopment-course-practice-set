@@ -1,0 +1,58 @@
+/* this use only first child of line which belong to .box class */
+
+/* .box:first-child{
+    background-color: rgb(226, 162, 162);
+    color: yellow;
+} */
+
+/* this use only for first line of all text/letter in para or word  */
+.box::first-line{
+    color: blue;  
+}
+
+
+/* this apply all the .box class  */
+.boxes *{
+    color: red;
+    border: 2px solid black;
+}
+[data-color="primary"]{
+ color: rgb(242, 121, 0);
+    padding-top: 45px;
+}
+
+/* grouping selector */
+/* p,a,.box,[data-color="primary"]{
+    color: brown;
+} */
+
+/* .box:nth-child(even){
+    color: blue;
+} */
+/* .box:nth-child(odd){
+    color: rgb(21, 203, 69);
+} */
+/* .box:nth-last-child(1){
+    background-color: pink;
+} */
+
+.boxes::after{
+    content: "Hey this is Last line of para.";
+    color: red;
+}
+.boxes::before{
+    content: "This is First line or Para.";
+    color: blueviolet;
+}
+::selection{
+    color:aqua ;
+    background-color: black;
+}
+.box::first-letter{
+    color: rgb(204, 0, 255);
+    font-size: 28px;
+}
+input::placeholder{
+    color: rgb(46, 46, 48);
+    font-size: 16px;
+}

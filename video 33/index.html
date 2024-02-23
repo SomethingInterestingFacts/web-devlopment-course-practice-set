@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --color: rgb(237, 64, 64);
+            --seccolor: rgb(153, 139, 139);
+            --thcolor: rgb(8, 135, 8);
+            --maincolor: rgb(156, 107, 205);
+            --anothercolor: #fffffff8;
+            --defpad: 10px;
+            --defop: 0.5;
+            --navcolor:rgb(255, 247, 0);
+            --pcolor:rgb(225, 185, 185);
+        }
+
+        body {
+            background-color: var(--seccolor);
+        }
+.nav{
+    background-color: var(--color);
+}
+.nav li:hover{
+    background-color:var(--anothercolor);
+    cursor: pointer; 
+  border-radius: 50px;
+}
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        ul li {
+            opacity: var(--defop);
+            margin: 12px;
+            padding: var(--defpad);
+            font-size: 20px;
+            font-weight: 700;
+            font-family: sans-serif;
+           
+        }
+        h1{
+            text-align: center;
+            color: var(--thcolor);
+        }
+        .jogi{
+            text-align: center;
+            margin: 23px 300px;
+            padding: var(--defpad);
+            font-style: inherit;
+            width: 50vw;
+            height: auto;
+            color: var(--maincolor);
+            font-size: 20px;
+            border: 5px solid var(--color);
+            background-color: var(--pcolor);
+            border-radius: 25px;
+        }
+        .jogi p{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+ul li a{
+    text-decoration: none;
+    color: var(--navcolor);
+}
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="/">Home</li></a>
+            <li><a href="/">About</li></a>
+            <li><a href="/">Services</li></a>
+            <li><a href="/">Contact</li></a>
+            <li><a href="/">more..</li></a>
+        </ul>
+    </div>
+    <div class="jogi">
+        
+        <h1>Excercise 4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos vero aliquam inventore ea
+            temporibus laboriosam, ex provident distinctio voluptate delectus, at voluptas dolor minus? Consequuntur
+            nisi, atque dolorum maxime quaerat dignissimos magni! Nobis esse quam, excepturi nam nihil, reprehenderit
+            quisquam unde minus amet quidem deserunt aliquid iure dolores. Explicabo voluptates exercitationem provident
+            asperiores eligendi.m Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ratione mollitia quasi dolor, soluta facere placeat minus quibusdam aperiam ducimus beatae blanditiis necessitatibus quae quod suscipit eaque sequi omnis nulla nisi eius repellat molestiae! Inventore sapiente laboriosam explicabo. Esse impedit consequuntur fugiat sunt quos, amet voluptatem magni ab quasi at!</p>
+          
+    </div>
+</body>
+
+</html>

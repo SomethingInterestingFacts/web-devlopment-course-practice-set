@@ -1,0 +1,124 @@
+/* .logo{
+    width:  40px;
+    height: 23px;
+    background-color: red;
+
+} */
+.logo a img{
+    width: 164px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    align-items: center;
+    cursor: pointer;
+}
+.right a:hover{
+    background-color: rgb(201, 245, 245);
+}
+.right a {
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+}
+.first span{
+    font-size: 40px;
+}
+section{
+    font-family: sans-serif;
+}
+section span img{
+    width: 82px;
+    margin:  0 13px;
+}
+.first p{
+    /* font-size: 23px; */
+    /* width: 39vw; */
+    /* font-size: 23px; */
+    width: 48vw;
+    align-items: center;
+    text-align: center;
+}
+.second{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    max-width: 70vw;
+}
+.btn{
+    cursor: pointer;
+    background-color: #00b3d1;
+    padding: 14px 16px;
+    margin: 12px 0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.green{
+    background-color: #5cb85c;
+}
+.small{
+    font-size: 12px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.item{
+    padding: 17px;
+    border-radius: 12px;
+    /* background-color: rgb(233, 246, 252); */
+    /* background-color: rgb(226, 246, 255); */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.lang{
+    padding-bottom: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+font-size: 23px;
+}
+.download{
+gap: 10px;
+    align-items:  center;
+    display: flex;
+    padding-bottom: 32px;
+    font-family: serif;
+}
+.download img{
+    padding: 0 12px;
+}
+@media screen and (max-width: 1350px) {
+    .grid{
+        /* background-color: red; */
+        grid-template-columns: 1fr;
+      
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade in Css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: aqua;
+        }
+        .yellow{
+            color: yellow ;
+        }
+        .cred{
+            color: red !important;
+        }
+        .cpurple{
+            color: purple;
+        }
+        [data-x="a"]{
+            color: rgb(230, 176, 176);
+        }
+        .cred{
+            color: blueviolet;
+        }
+        /*a.harryclass.rohan-class[href]:hover{
+            color: red;
+        }*/
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">Specificity in Cascade CSS </h1>
+    </div>
+</body>
+</html>

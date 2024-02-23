@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*div{
+background-color: red;
+color: yellow;
+}*/
+.red{
+color: red;
+background-color: yellow;
+}
+#green{
+color: yellow;
+background-color: red;
+}
+/*child selector*/
+#green > p{
+color: pink;
+background-color: blue;
+}
+div p{
+color: rgb(226, 43, 43);
+background-color: rgb(171, 153, 172);
+}
+a:visited{
+color: yellow;
+}
+a:hover{
+background-color: rgb(228, 3, 3);
+}
+a:link{
+color: rgb(12, 206, 38);
+}
+a:active{
+background-color: rgb(180, 8, 202);
+}
+.one p:first-child{
+background-color: rgb(51, 255, 0);
+color: rgb(231, 21, 21);
+}

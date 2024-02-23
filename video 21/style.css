@@ -1,0 +1,24 @@
+h1{
+    color: aqua;
+}
+.yellow{
+    color: yellow ;
+}
+.cred{
+    color: red !important;
+}
+.cpurple{
+    color: purple;
+}
+[data-x="a"]{
+    color: rgb(230, 176, 176);
+}
+.cred{
+    color: blueviolet;
+}
+/*a.harryclass.rohan-class[href]:hover{
+    color: red;
+}*/
+/* h1.yellow.cred.cpurple[data-x="a"]:hover{
+    color: red;
+} */

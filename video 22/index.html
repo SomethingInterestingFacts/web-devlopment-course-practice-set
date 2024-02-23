@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Unit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            /* by dafault font-size html is 16px*/
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aqua;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width: 80vw;
+            margin: 23px auto;
+            background-color: aqua;
+            min-height: 80vh;
+            font-size: 18px;
+
+
+        }
+
+        .container div {
+
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+
+        }
+
+        .container>div>div {
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont {
+
+            /* background-color: red;*/
+            box-sizing: border-box;
+            border: 2px solid black;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            margin: 23px auto;
+            /*  width: 100vmin;*/
+            width: 80vw;
+        }
+
+        .container div {
+            text-overflow: clip;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        This is a Box.
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cupiditate molestias at, id eum odit eligendi
+            animi voluptatum alias saepe neque magni aspernatur quasi corporis...
+            <div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae odit fugiat consequatur provident.
+                Fugiat ut quae ipsa. Modi neque cumque debitis sunt repellat rerum ipsam.
+            </div>
+        </div>
+        <!-- expend this to see this container adjust its height lorem999  -->
+    </div>
+
+
+    <div class="mycont">
+        Looorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatem deleniti voluptates ipsum
+        doloribus exercitationem alias debitis id laboriosam unde eius libero similique quam sint repellat, modi
+        nesciunt quibusdam sed iste iusto. Excepturi praesentium voluptatibus tempora assumenda impedit. Aspernatur
+        culpa architecto explicabo consectetur necessitatibus laborum placeat, facere minus ab totam laboriosam sint
+        repellendus esse, at dolor.
+    </div>
+</body>
+
+</html>

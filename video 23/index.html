@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+*{
+    margin: 0;
+    padding:0;
+}
+.box{
+    border: 2px solid blue;
+    display: inline-block;
+    width: 350px;
+    padding: 45px;
+    margin: 35px;
+}
+.box1{color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-items: center;
+    
+    /*by help of display : none we can take a empty space*/
+    /* display: none;*/
+
+    /*by help of visibility:hidden we can take a space if there is any text in past*/
+    /*visibility: hidden;*/
+}
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am a Box.
+    </div>
+    <div class="box">
+I am also an another box.
+    </div>
+    <span>I am a Good</span>
+    <span>Boy</span>
+</body>
+</html>
