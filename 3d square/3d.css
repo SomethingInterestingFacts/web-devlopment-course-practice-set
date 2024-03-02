@@ -1,0 +1,30 @@
+
+.flex{
+    background: #17c574;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 20px solid rgb(231, 223, 108);
+    /* border-radius: 50%; */
+    border-left: 20px solid rgb(59, 59, 59);
+    border-bottom: 20px solid rgb(116, 114, 114);
+    border-right: 20px solid rgb(167, 167, 164);
+    border-top: 20px solid #dadfdf;
+    /* border-top: 20px solid #4ecdc4; */
+animation: square 9.5s linear infinite;
+}
+@keyframes square{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
