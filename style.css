@@ -1,0 +1,30 @@
+body{
+    background: #17c574;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: relative;
+    color: #0000004d; /*color with opacity add*/
+    font-size: 60px;
+}
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    columns: #fff;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: loading 8s linear;
+}
+@keyframes loading {
+    0% {
+max-width: 0;
+    }
+}
